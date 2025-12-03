@@ -2,7 +2,7 @@
     acme_ca internal
 }
 
-:${PORT} {
+:{$PORT} {
     tls internal
     reverse_proxy hyren-web.railway.internal:8080
 }
