@@ -4,5 +4,5 @@
 
 :${PORT} {
     tls internal
-    reverse_proxy <domain>:<port>
+    reverse_proxy hyren-web.railway.internal:8080
 }
