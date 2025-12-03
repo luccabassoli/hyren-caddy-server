@@ -1,4 +1,6 @@
-:{$PORT}
+:{$PORT} {
+    reverse_proxy hyren-web.railway.internal:8080
+}
 
 root * /srv
 file_server
